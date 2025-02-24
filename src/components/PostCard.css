@@ -1,0 +1,35 @@
+/* PostCard.css */
+.post-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 300px;
+    display: inline-block;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+    font-size: 16px;
+    color: dimgray;
+  }
+  
+  .post-content {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  

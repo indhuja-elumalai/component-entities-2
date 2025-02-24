@@ -1,0 +1,20 @@
+/* LikeButton.css */
+.like-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .like-button.unliked {
+    background-color: #ddd;
+    color: #555;
+  }
+  
+  .like-button.liked {
+    background-color: #007bff;
+    color: white;
+  }
+  
